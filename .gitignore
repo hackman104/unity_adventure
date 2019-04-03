@@ -1,3 +1,6 @@
 # build artifacts
 Logs/*
 obj/*
+Obj/*
+temp/*
+Temp/*

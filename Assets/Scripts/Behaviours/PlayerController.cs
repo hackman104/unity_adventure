@@ -29,5 +29,12 @@ namespace Atalanta.Behaviours
             var movement = new Vector2(moveHorizontal, moveVertical);
             this._rigidBody.AddForce(movement * speed);
         }
+
+        public void OnTriggerEnter2D(Collider2D other)
+        {
+            if (other.gameObject.CompareTag("PickUp")) {
+                other.gameObject.SetActive(false);
+            }
+        }
     }
 }

@@ -300,6 +300,12 @@
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>D:/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
+ <Reference Include="RSG.Factory">
+ <HintPath>E:/Devspace/atalanta/Assets/Plugins/RSG.Factory.dll</HintPath>
+ </Reference>
+ <Reference Include="RSG.Toolkit">
+ <HintPath>E:/Devspace/atalanta/Assets/Plugins/RSG.Toolkit.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>E:/Devspace/atalanta/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -314,12 +320,6 @@
  </Reference>
  <Reference Include="UnityEditor.Purchasing">
  <HintPath>E:/Devspace/atalanta/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
- </Reference>
- <Reference Include="RSG.Toolkit">
- <HintPath>E:/Devspace/atalanta/Assets/Plugins/RSG.Toolkit.dll</HintPath>
- </Reference>
- <Reference Include="RSG.Factory">
- <HintPath>E:/Devspace/atalanta/Assets/Plugins/RSG.Factory.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>D:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/2.0-api/mscorlib.dll</HintPath>

@@ -61,7 +61,10 @@
      <Compile Include="Assets\Scripts\Atalanta\Services\UnityInputService.cs" />
      <Compile Include="Assets\Scripts\Atalanta\Services\UnityLogger.cs" />
      <Compile Include="Assets\Scripts\Behaviours\AppInit.cs" />
+     <Compile Include="Assets\Scripts\Behaviours\CameraController.cs" />
      <Compile Include="Assets\Scripts\Behaviours\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\Behaviours\PlaySoundOnDeactivate.cs" />
+     <Compile Include="Assets\Scripts\Behaviours\Rotator.cs" />
      <Compile Include="Assets\TutorialInfo\Scripts\TutorialInfo.cs" />
      <None Include="Assets\TutorialInfo\Fonts\LICENSE.txt" />
  <Reference Include="Unity.TextMeshPro.Editor">
@@ -280,6 +283,12 @@
  <Reference Include="UnityEngine.SpatialTracking">
  <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
+ <Reference Include="RSG.Factory">
+ <HintPath>E:/Devspace/atalanta/Assets/Plugins/RSG.Factory.dll</HintPath>
+ </Reference>
+ <Reference Include="RSG.Toolkit">
+ <HintPath>E:/Devspace/atalanta/Assets/Plugins/RSG.Toolkit.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Analytics.Editor">
  <HintPath>E:/Devspace/atalanta/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
@@ -288,12 +297,6 @@
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
  <HintPath>E:/Devspace/atalanta/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
- </Reference>
- <Reference Include="RSG.Toolkit">
- <HintPath>E:/Devspace/atalanta/Assets/Plugins/RSG.Toolkit.dll</HintPath>
- </Reference>
- <Reference Include="RSG.Factory">
- <HintPath>E:/Devspace/atalanta/Assets/Plugins/RSG.Factory.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>D:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>
