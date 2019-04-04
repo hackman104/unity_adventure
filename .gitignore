@@ -1,4 +1,7 @@
 # build artifacts
+Build/*
+Library/*
+library/*
 Logs/*
 obj/*
 Obj/*
