@@ -33,10 +33,10 @@ namespace Atalanta
             var logger = new UnityLogger();
             var factory = new Factory("App", logger);
             factory.Dep<ILogger>(logger);
-
             factory.AutoRegisterTypes();
-            this.singletonManager = factory.AutoInstantiateSingletons();
+
             this.Factory = factory;
+            this.singletonManager = factory.AutoInstantiateSingletons();
             this.singletonManager.Startup();
         }
 

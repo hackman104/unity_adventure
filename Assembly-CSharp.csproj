@@ -60,6 +60,7 @@
      <Compile Include="Assets\Scripts\Behaviours\AppInit.cs" />
      <Compile Include="Assets\Scripts\Behaviours\CameraController.cs" />
      <Compile Include="Assets\Scripts\Behaviours\KillOnPlayerCollide.cs" />
+     <Compile Include="Assets\Scripts\Behaviours\LevelSwitch.cs" />
      <Compile Include="Assets\Scripts\Behaviours\PlayerController.cs" />
      <Compile Include="Assets\Scripts\Behaviours\Rotator.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
