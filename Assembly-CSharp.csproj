@@ -55,12 +55,16 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Atalanta\App.cs" />
      <Compile Include="Assets\Scripts\Atalanta\Services\IInputService.cs" />
+     <Compile Include="Assets\Scripts\Atalanta\Services\ISceneLoader.cs" />
+     <Compile Include="Assets\Scripts\Atalanta\Services\SceneLoader.cs" />
      <Compile Include="Assets\Scripts\Atalanta\Services\UnityInputService.cs" />
      <Compile Include="Assets\Scripts\Atalanta\Services\UnityLogger.cs" />
      <Compile Include="Assets\Scripts\Behaviours\AppInit.cs" />
      <Compile Include="Assets\Scripts\Behaviours\CameraController.cs" />
+     <Compile Include="Assets\Scripts\Behaviours\FadeInCanvas.cs" />
      <Compile Include="Assets\Scripts\Behaviours\KillOnPlayerCollide.cs" />
-     <Compile Include="Assets\Scripts\Behaviours\LevelSwitch.cs" />
+     <Compile Include="Assets\Scripts\Behaviours\LoadSceneOnClick.cs" />
+     <Compile Include="Assets\Scripts\Behaviours\LoadSceneOnPlayerCollide.cs" />
      <Compile Include="Assets\Scripts\Behaviours\PlayerController.cs" />
      <Compile Include="Assets\Scripts\Behaviours\Rotator.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">

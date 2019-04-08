@@ -8,13 +8,10 @@ namespace Atalanta.Behaviours
         public void Awake()
         {
             App.Startup();
+            Debug.Log("startup complete");
         }
 
-        void Start()
-        {
-        }
-
-        void OnApplicationQuit()
+        public void OnApplicationQuit()
         {
             App.Instance.Shutdown();
         }
