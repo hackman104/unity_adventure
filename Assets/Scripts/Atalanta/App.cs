@@ -25,7 +25,6 @@ namespace Atalanta
             if (Instance == null)
             {
                 Instance = new App();
-                UnityEngine.Debug.Log("in startup");
             }
         }
 
